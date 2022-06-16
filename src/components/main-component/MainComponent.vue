@@ -1,16 +1,19 @@
 <template>
 	<main class="main-component">
 		<champion-input-component />
+		<champions-component />
 	</main>
 </template>
 
 <script>
 import ChampionInputComponent from "../champion-input-component/ChampionInputComponent.vue";
+import ChampionsComponent from "../champions-component/ChampionsComponent.vue";
 
 export default {
 	name: "MainComponent",
 	components: {
 		ChampionInputComponent,
+		ChampionsComponent,
 	},
 };
 </script>
