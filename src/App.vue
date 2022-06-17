@@ -2,18 +2,21 @@
 	<div class="app">
 		<header-component />
 		<main-component />
+		<positions-modal-component />
 	</div>
 </template>
 
 <script>
 import HeaderComponent from "./components/header-component/HeaderComponent.vue";
 import MainComponent from "./components/main-component/MainComponent.vue";
+import PositionsModalComponent from "./components/positions-modal-component/PositionsModalComponent.vue";
 
 export default {
 	name: "App",
 	components: {
 		HeaderComponent,
 		MainComponent,
+		PositionsModalComponent,
 	},
 };
 </script>
@@ -32,5 +35,6 @@ export default {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	position: relative;
 }
 </style>
