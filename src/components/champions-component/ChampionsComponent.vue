@@ -97,7 +97,7 @@ export default {
 	box-shadow: 0px 0px 5px black;
 	position: relative;
 	background-repeat: no-repeat;
-	background-size: c;
+	background-size: cover;
 }
 
 .champion__img {
